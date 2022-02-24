@@ -1,4 +1,4 @@
-*This is a fork of [this great action](https://github.com/xu-cheng/latex-action). The goal here is to replace the current version of TeXlive, and replace it instead with a version from 2020 (see [here](https://github.com/xu-cheng/latex-docker/pkgs/container/texlive-full/27640?tag=20200902)).*
+*This is a fork of [this great action](https://github.com/xu-cheng/latex-action). The goal here is to replace the current version of TeXlive, and replace it instead with a version from 2020 (see [here](https://github.com/xu-cheng/latex-docker/pkgs/container/texlive-full/27640?tag=20200902)) in the Dockerfile.*
 
 *The reason is that TeXlive is unable to properly compile documents with the class *moderncv*. More precisely, there is some problems while loading symbols (such as \faEnvelopeO). See the error log [here (line 257)](https://github.com/Guillaume-Garrigos/guillaume-garrigos.github.io/runs/5321780971?check_suite_focus=true) or the closed issue [here](https://github.com/xu-cheng/latex-action/issues/50).*
 
